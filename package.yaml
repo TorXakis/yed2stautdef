@@ -1,0 +1,51 @@
+name:                Staut
+version:             0.0.1.0
+github:              "githubuser/Staut"
+license:             BSD3
+author:              "Jan Tretmans"
+maintainer:          "jan.tretmans@tno.nl"
+copyright:           "2021 ESI (TNO) and Radboud University"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+synopsis:            Transformation of yEd's .tgf format to TorXakis' STAUTDEF
+category:            TorXakis Model-Based Testing
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/githubuser/Staut#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+  dependencies:
+  - containers
+  - portable-lines
+
+executables:
+  staut:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - Staut
+
+tests:
+  Staut-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - Staut
