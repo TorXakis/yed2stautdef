@@ -9,7 +9,8 @@ platforms. `yed2stautdef` provides a transformation from yEd-graphs to TorXakis 
 
 ## Installation
 
-`yed2stautdef` is provided as a zipped-executable for various platforms in the [releases] section.
+`yed2stautdef` is provided as a zipped-executable for various platforms
+in the ![releases](https://github.com/TorXakis/yed2stautdef/releases) section.
 
 
 ## Usage
@@ -25,11 +26,9 @@ and optionally some parameters between `(` and `)`.
 Moreover, there must be a list of all states following `STATE`,
 `VAR` shall declare the state variables with their types,
 and `INIT` shall give the initial state with initial values for the state variables.
-Nodes and edges can be formatted as wished (colour, shape, lining, shadow, $\ldots$);
+Nodes and edges can be formatted as wished (colour, shape, lining, shadow, ... );
 it does not matter for the transformation to TXS;
-see the example of the state automation for `HelloWorld`.
-
-![Hello World!](images/hwstaut.pdf)
+see the example of the state automation for ![Hello World!](images/hwstaut.pdf).
 
 The graph edited in yEd shall be saved in `Trivial Graph Format` (.tgf);
 `yed2stautdef` transforms a file in TGF-format to a TXS-file:
