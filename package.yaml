@@ -29,7 +29,7 @@ library:
   - portable-lines
 
 executables:
-  staut:
+  yed2stautdef:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
