@@ -29,7 +29,7 @@ Nodes and edges can be formatted as wished (colour, shape, lining, shadow, $\ldo
 it does not matter for the transformation to TXS;
 see the example of the state automation for `HelloWorld`.
 
-![Hello World!](images/helloworld.pdf)
+![Hello World!](images/hwstaut.pdf)
 
 The graph edited in yEd shall be saved in `Trivial Graph Format` (.tgf);
 `yed2stautdef` transforms a file in TGF-format to a TXS-file:
