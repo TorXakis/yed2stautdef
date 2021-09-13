@@ -2,14 +2,14 @@
 
 `Torxakis` is a tool for model-based testing. Models represent state-transition systems,
 which can intuitively be visualized as graphs.
-[yEd]({https://www.yworks.com/products/yed) is a powerfull, freely available graph editor
+[yEd](https://www.yworks.com/products/yed) is a powerfull, freely available graph editor
 that can be used to edit and (automatically) layout graphs, and that runs on various
 platforms. `yed2stautdef` provides a transformation from yEd-graphs to TorXakis models.
 
 
 ## Installation
 
-`yed2stautdef` is provided as a zipped-executable for various platforms in the [releases][13] section.
+`yed2stautdef` is provided as a zipped-executable for various platforms in the [releases] section.
 
 
 ## Usage
