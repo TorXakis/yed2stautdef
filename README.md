@@ -10,7 +10,7 @@ platforms. `yed2stautdef` provides a transformation from yEd-graphs to TorXakis 
 ## Installation
 
 `yed2stautdef` is provided as a zipped-executable for various platforms
-in the ![releases](https://github.com/TorXakis/yed2stautdef/releases) section.
+in the [releases](https://github.com/TorXakis/yed2stautdef/releases) section.
 
 
 ## Usage
