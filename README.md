@@ -28,7 +28,7 @@ Moreover, there must be a list of all states following `STATE`,
 and `INIT` shall give the initial state with initial values for the state variables.
 Nodes and edges can be formatted as wished (colour, shape, lining, shadow, ... );
 it does not matter for the transformation to TXS;
-see the example of the state automation for ![Hello World!](images/hwstaut.pdf).
+see the example of the state automation for [Hello World!](images/hwstaut.pdf).
 
 The graph edited in yEd shall be saved in `Trivial Graph Format` (.tgf);
 `yed2stautdef` transforms a file in TGF-format to a TXS-file:
